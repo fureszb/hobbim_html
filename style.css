@@ -1,0 +1,73 @@
+#background-video {
+    width: 114vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  @media (max-width: 750px) {
+    #background-video { display: none; }
+    body {
+      background: url("https://i.scdn.co/image/ab67706c0000bebbde68aab60cdb54e366409aec") fixed;
+      background-size: contain;
+    }
+    
+}
+body {
+    color: white;
+}
+img{
+    float: left;
+    padding: 10px;
+    padding-right: 40px;
+    width: 25%;
+}
+div {
+    background-color: #000000d6;
+    padding: 20px;
+    height: 750px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #33333373;
+    width: 390px;
+    font-size: x-small;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  h3,ul {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  h2 {
+    text-align: center;
+  }
+  @media screen and (max-width: 800px)
+  {
+    div {
+      height: 960px;
+      background-color: #000000e0;
+        }
+  }
